@@ -11,7 +11,12 @@ export const faqs=[
     },
     {
         question:'How can I apply for the program ?',
-        answer:''
+        answer:'It is self paced but within a predefined period of time i.e 4 months'
+
+    },
+    {
+        question:'How often and how much will learners interact with the instructor and other students?',
+        answer:'Instructors will always be available for interaction through booking of consultation hour meetings or reaching out via our Learning management system'
 
     },
     {
@@ -21,7 +26,12 @@ export const faqs=[
     },
     {
         question:'How can I apply for the program ?',
-        answer:''
+        answer:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, repellendus?'
+
+    },
+    {
+        question:'How can I apply for the program ?',
+        answer:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, repellendus?'
 
     },
     {
@@ -31,37 +41,27 @@ export const faqs=[
     },
     {
         question:'How can I apply for the program ?',
-        answer:''
+        answer:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, repellendus?'
 
     },
     {
         question:'How can I apply for the program ?',
-        answer:''
+        answer:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, repellendus?'
 
     },
     {
         question:'How can I apply for the program ?',
-        answer:''
+        answer:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, repellendus?'
 
     },
     {
         question:'How can I apply for the program ?',
-        answer:''
+        answer:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, repellendus?'
 
     },
     {
         question:'How can I apply for the program ?',
-        answer:''
-
-    },
-    {
-        question:'How can I apply for the program ?',
-        answer:''
-
-    },
-    {
-        question:'How can I apply for the program ?',
-        answer:''
+        answer:'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, repellendus?'
 
     }
 
