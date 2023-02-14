@@ -1,18 +1,21 @@
 import React from "react";
+import Marquee from "react-fast-marquee";
 import { RiStarSFill } from "react-icons/ri";
 const Courses = () => {
   return (
     <div className="col courses bg-light mb-5">
-      {/* courses */}
-      <div className=" justify-center col align-items-center">
-        <div className="col justify-center  align-items-center">
+      <div className="col justify-center  align-items-center">
         <h5 className="text-center">Courses</h5>
         <h3  className="text-center">OUR MODULES</h3>
-        <small  className="text-center">
+        <p className="text-center">
           Check out our most poular courses that suit for you. Here you can find
           your favourite one..
-        </small>
+        </p>
         </div>
+      {/* courses */}
+     <Marquee>
+     <div className=" justify-center col align-items-center">
+        
         <div className=" row d-flex">
           <div className="card mx-3" style={{ width: "18rem" }}>
             <img
@@ -132,6 +135,8 @@ const Courses = () => {
           </div>
         </div>
       </div>
+     </Marquee>
+
     </div>
   );
 };
