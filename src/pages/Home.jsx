@@ -145,13 +145,13 @@ const Home = () => {
           width: "80%",
           height: "300px",
           display: "flex",
-          paddingBottom:"20px",
+          
           justifyContent: "center",
           alignItems: "center",
         }}
-        className="ready mb-3 row  gap-2  rounded "
+        className="ready mb-3 mx-auto row  gap-2  rounded "
       >
-        <Col className=" justify-content-center">
+        <Col className=" mx-auto align-items-center justify-content-center">
           <div className="col">
             <h1 className="text-white fw-semibold">Ready to get admitted?</h1>
             <p className="text-white">
@@ -161,8 +161,8 @@ const Home = () => {
           <div className="d-flex gap-4">
             <button className="btn btn-info">Enroll</button>
             <button
-              style={{ boder: "1px solid transparent" }}
-              className="btn btn-transparent b-1"
+             
+              className="btn btn-transparent btn-info text-white"
             >
               Contact Us
             </button>
@@ -171,7 +171,7 @@ const Home = () => {
 
         <Col>
           <img
-            className="row fluid"
+            className=" img-fluid mt-3"
             
             src="https://o.remove.bg/downloads/06b2a8d9-d31e-49f1-ae4d-1d2abdc72c20/inspired-african-student-glasses-holding-white-laptop-carefree-black-male-freelancer-smiling_197531-20160-removebg-preview.png"
             alt=""
