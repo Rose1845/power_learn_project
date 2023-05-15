@@ -27,14 +27,14 @@ function Header() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link className="text-white fw-bold " href="#home">
+                <Nav.Link className="text-white fw-bold " href="/#home">
                   Home
                 </Nav.Link>
-                <Nav.Link className="text-white fw-bold " href="#features">
-                  Features
+                <Nav.Link className="text-white fw-bold " href="/#programs">
+                 Our Program
                 </Nav.Link>
-                <Nav.Link className="text-white fw-bold " href="#pricing">
-                  Pricing
+                <Nav.Link className="text-white fw-bold " href="#modules">
+                 Our Modules
                 </Nav.Link>
                 <Nav.Link className="text-white fw-bold " href="#features">
                    Academy
@@ -42,8 +42,8 @@ function Header() {
                 <Nav.Link className="text-white fw-bold " href="#pricing">
                   Media
                 </Nav.Link>
-                <Nav.Link className="text-white fw-bold " href="#pricing">
-                  Our Team
+                <Nav.Link className="text-white fw-bold " href="/#faqs">
+                 FAQS
                 </Nav.Link>
                 <Nav.Link className="text-white fw-bold " href="#features">
                   Contact
