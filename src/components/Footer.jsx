@@ -48,13 +48,20 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="d-flex col text-white d-flex justify-content-center align-items-center">
-        <span>
-          <AiOutlineCopyright />Copyright {new Date().getFullYear()}
-        </span>
-        <span role="img" aria-label="love">
-          Made by Rose💖
-        </span>
+      <div className="d-flex col text-white justify-content-center align-items-center">
+        <div className="">
+          <span>
+            <AiOutlineCopyright />
+            Copyright {new Date().getFullYear()}
+          </span>
+        </div>
+        <br />
+
+        <div className="">
+          <span role="img" aria-label="love">
+            Made by Rose💖
+          </span>
+        </div>
       </div>
     </div>
   );

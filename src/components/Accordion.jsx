@@ -6,12 +6,11 @@ const Accordion = ({ question, children }) => {
   const toggleAction = () => {
     setIsActive(!isActive);
   };
-
   return (
     //
     <div>
       {/* accordion */}
-      <div className="border w-full rounded-md shadow-sm mb-4">
+      <div className=" w-full rounded-md shadow-sm mb-4">
         <div
           className="d-flex justify-content-center align-items-center"
           onClick={toggleAction}
@@ -19,7 +18,9 @@ const Accordion = ({ question, children }) => {
           <h2 className="text-center fs-5">{question}</h2>
           {isActive ? <AiOutlineMinusCircle /> : <AiOutlinePlusCircle />}
         </div>
-        {isActive && <div className="border-top-1 px-4 py-3 text-center">{children}</div>}
+        {isActive && (
+          <div className="border-top-1 px-4 py-3 text-center">{children}</div>
+        )}
       </div>
     </div>
   );

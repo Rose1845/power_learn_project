@@ -6,7 +6,6 @@ import { Row, Col, Card } from "react-bootstrap";
 
 import { TbBooksOff } from "react-icons/tb";
 
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -75,8 +74,7 @@ const Home = () => {
                 <Card.Body>
                   <Card.Title>Impact</Card.Title>
                   <Card.Text>
-                    We create access to equal opportunity and
-                    empowerment.
+                    We create access to equal opportunity and empowerment.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -95,7 +93,7 @@ const Home = () => {
           width: "80%",
           height: "300px",
           display: "flex",
-          
+
           justifyContent: "center",
           alignItems: "center",
         }}
@@ -110,10 +108,7 @@ const Home = () => {
           </div>
           <div className="d-flex gap-4">
             <button className="btn btn-info">Enroll</button>
-            <button
-             
-              className="btn btn-transparent btn-info text-white"
-            >
+            <button className="btn btn-transparent btn-info text-white">
               Contact Us
             </button>
           </div>
@@ -122,7 +117,6 @@ const Home = () => {
         <Col>
           <img
             className=" img-fluid mt-3"
-            
             src="https://o.remove.bg/downloads/06b2a8d9-d31e-49f1-ae4d-1d2abdc72c20/inspired-african-student-glasses-holding-white-laptop-carefree-black-male-freelancer-smiling_197531-20160-removebg-preview.png"
             alt=""
           />

@@ -1,13 +1,11 @@
-import React, { Fragment, useState } from 'react'
+import React, { Fragment, useState } from "react";
 
-import Accordion from './Accordion'
+import Accordion from "./Accordion";
 const Faqs = () => {
-
-
   return (
-    <div  className='d-flex flex-column  align-items-center mb-4' id='faqs'>
-      <h2 className='text-center mb-3 pb-4'>Frequently Asked Questions</h2>
-      
+    <div className="d-flex flex-column  align-items-center mb-4" id="faqs">
+      <h2 className="text-center mb-3 pb-4">Frequently Asked Questions</h2>
+
       <div className="mt-14 w-full md:w-1/2">
         <Accordion question="How long does the program run?">
           <p>
@@ -46,9 +44,8 @@ const Faqs = () => {
           </p>
         </Accordion>
       </div>
-     
     </div>
-  )
-}
+  );
+};
 
-export default Faqs
+export default Faqs;
