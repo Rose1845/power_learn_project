@@ -57,7 +57,7 @@ const Footer = () => {
         </div>
         <br />
 
-        <div className="">
+        <div className="ml-2">
           <span role="img" aria-label="love">
             Made by Rose💖
           </span>
